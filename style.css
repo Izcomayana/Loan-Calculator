@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgb(30, 38, 53);
+  text-align: center;
+  height: 100vh;
+  padding: 30px 0;
+}
+
+.row {
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.1rem;
+  width: 40vw;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.alert {
+  background-color: rgb(255, 128, 128);
+  border-radius: 5px;
+  width: 90%;
+  padding: 0.7rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  padding-bottom: 0.5rem;
+}
+
+.input-group {
+  margin: 0.5rem auto;
+  text-align: right;
+  display: flex;
+}
+
+.input-group-addon {
+  background-color: rgb(235, 235, 235);
+  text-align: left;
+  padding: 0.5rem;
+  width: 23%;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.input-group-addon1 {
+  width: 5% !important;
+  text-align: center !important;
+}
+
+input#amount {
+  width: 90%;
+  border: 1px solid rgb(235, 235, 235);
+}
+
+input#interest {
+  width: 90%;
+  border: 1px solid rgb(235, 235, 235);
+}
+
+input#years {
+  width: 96.4%;
+  border: 1px solid rgb(235, 235, 235);
+}
+
+.form-control {
+  padding: 0.5rem;
+  width: 75%;
+}
+
+.btn {
+  background-color: rgb(34, 33, 46);
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+  border: 0;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+
+.loading-gif {
+  height: 25vh;
+}
+
+h2 {
+  margin: 0.5rem 0;
+}
+
+.results-form-control {
+  background-color: rgb(235, 235, 235);
+  border: 1px solid rgb(215, 215, 215);
+}
